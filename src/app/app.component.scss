@@ -1,0 +1,48 @@
+.flex-box-inner,
+.flex-box-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-box-inner {
+    border: 1px solid lightgrey;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.flex-box-outer {
+    overflow: scroll;
+    height: 100vh;
+    max-width: 400px;
+}
+
+.btn {
+    width: 100%;
+    white-space: nowrap;
+    text-align: start;
+}
+
+.input-group-text {
+    width: 100%;
+    justify-content: center;
+}
+
+.icon-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: inherit;
+}
+
+.add-drone {
+    gap: 1rem;
+}
+
+.text-error {
+    font-size: small;
+    color: red;
+}
